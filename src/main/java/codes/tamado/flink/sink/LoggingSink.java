@@ -15,7 +15,7 @@ public class LoggingSink implements SinkFunction<String> {
   }
 
   @Override
-  public void invoke(final String value, final Context context) throws Exception {
+  public void invoke(final String value, final Context context) {
     LOGGER.info("{}: {}", this.prefix, value);
   }
 }
