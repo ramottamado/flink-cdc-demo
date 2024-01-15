@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Postgres CDC" type="Application" factoryName="Application">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="codes.tamado.flink.cdc.PostgresDemoApp" />
+    <module name="flink-cdc-demo" />
+    <option name="PROGRAM_PARAMETERS" value="--properties src/main/resources/demo-postgres.properties" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="codes.tamado.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

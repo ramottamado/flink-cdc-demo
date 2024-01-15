@@ -95,8 +95,18 @@
             <version>${flink-cdc.version}</version>
         </dependency>
         <dependency>
+            <groupId>com.ververica</groupId>
+            <artifactId>flink-connector-postgres-cdc</artifactId>
+            <version>${flink-cdc.version}</version>
+        </dependency>
+        <dependency>
             <groupId>io.debezium</groupId>
             <artifactId>debezium-connector-oracle</artifactId>
+            <version>${debezium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.debezium</groupId>
+            <artifactId>debezium-connector-postgres</artifactId>
             <version>${debezium.version}</version>
         </dependency>
         <dependency>
